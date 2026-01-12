@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Daily Planner</title>
+    <link rel="stylesheet" href="to-do-list.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="planner-container">
+        <header>
+            <h1>My Daily Planner </h1>
+            <p>Stay Organize, Be Successful</p>
+        </header>
+
+        <div class="input-group">
+            
+            <div class="input-wrapper">
+
+                <input type="text" id="task-input" placeholder="What's the plan?">
+
+                <i class="fa-solid fa-pen-to-square"></i>
+
+            </div>
+            <div class="input-wrapper time-wrapper">
+
+                <input type="time" id="time-input">
+
+            </div>
+
+            <button id="add-btn"><i class="fa-solid fa-plus"></i> Add</button>
+
+        </div>
+
+        <ul id="task-list">
+            
+        </ul>
+    </div>
+
+    <script src="to-do-list.js"></script>
+</body>
+</html>
